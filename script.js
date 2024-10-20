@@ -9,6 +9,8 @@ present.addEventListener('click', () => {
 
 function startFireworks() {
     const container = document.getElementById('container');
+
+    // Instantiate Fireworks
     const fireworks = new Fireworks(container, {
         autoresize: true,
         opacity: 0.5,
